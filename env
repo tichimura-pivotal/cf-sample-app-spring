@@ -1,0 +1,8 @@
+export CF_SYSTEM_DOMAIN=run.pivotal.io
+export CF_APPS_DOMAIN=cfapps.io
+export CF_USER=tichimura@pivotal.io
+export CF_ORG=APJ
+export CF_SPACE=Development
+export CF_APP=tispring-todo
+export CF_MANIFEST=manifest.blue-green
+export BUILD_NUMBER=1001

@@ -40,7 +40,7 @@
                   <div>BUILDPACK</div>
                 </div>
                 <div class="type-ellipsis">
-                  Java or PHP
+                  Java/Spring
                 </div>
               </div>
               <div class="col-xs-9 col-sm-6 col-md-6 col-lg-6 ptl txt-r type-ellipsis">
@@ -58,7 +58,7 @@
               </div>
               <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
                 <div class="type-neutral-4 small">
-                  <div class="type-ellipsis">アプリケーション名</div>
+                  <div class="type-ellipsis">APP NAME</div>
                 </div>
                 <div class="type-ellipsis" th:text="${cfapp['application_name'] != null} ? ${cfapp['application_name']} : '@application_name'"></div>
               </div>

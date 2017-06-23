@@ -3,4 +3,6 @@ applications:
 - name: tispring-todo
   memory: 512M
   instances: 1
-  random-route: true
+  services:
+   - todo-mysqldb-ti
+  random-route: false

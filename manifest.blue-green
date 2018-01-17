@@ -1,0 +1,9 @@
+---
+applications:
+- name: tispring-todo
+  memory: 512M
+  instances: 1
+  services:
+   - todo-mysqldb-tichimura
+  random-route: false
+  VERSION: TODO_1_0

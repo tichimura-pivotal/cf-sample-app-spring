@@ -1,6 +1,10 @@
 ---
 applications:
+<<<<<<< HEAD:manifest.service
 - name: ti-todo
+=======
+- name: tispring-todo
+>>>>>>> dc8cb0a23d1b8d4ff0e66afafbd2d521c77a95f6:manifest.yml
   memory: 512M
   instances: 1
   services:
